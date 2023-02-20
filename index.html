@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3>Salem</h3>
+            <p>
+                The name of the Lord is a strong tower, Run into it!
+            </p>   
+    </header>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Logistics <span>Solution</span></h1>
+        </div>
+        <div class="dropdownMenu">
+            <button id="myBtn" class="dropdnbtn" onclick="myFunction()">
+                Menu <i class="fa-regular fa-bars";></i> 
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <main class="body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laborum. Iusto iste eaque recusandae animi, ratione possimus deserunt labore doloremque vero voluptatem, nisi a adipisci sunt voluptates nesciunt! Corrupti asperiores recusandae ducimus delectus aut id perferendis consectetur numquam excepturi distinctio provident eaque culpa repellendus accusamus iure explicabo consequatur ullam esse, officiis porro repellat. In, veniam ratione quos earum blanditiis, eos nam eum accusamus rerum maiores atque repellendus harum! Quas esse nulla impedit illum natus. Officia magnam qui, molestias eius sapiente beatae tempore velit aspernatur expedita ducimus, non placeat dolorum, excepturi perspiciatis unde error similique deserunt quas asperiores explicabo doloribus vel.</p>
+    </main>
+    <script>
+        // document.getElementById("myBtn").onclick = function() {
+        //     myFunction()
+        // };
+        function myFunction () {
+           document.getElementById("myDropdown").classList.toggle("show")
+        }
+    </script>
+</body>
+</html>
